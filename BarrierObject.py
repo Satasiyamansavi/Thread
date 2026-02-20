@@ -2,7 +2,7 @@ import threading
 import time
 barrier=threading.Barrier(3)
 def player(name):
-    print(f"{name} is started")
+    print(f"{name} is started...")
     score=0
     for i in range(3):
         time.sleep(1)
