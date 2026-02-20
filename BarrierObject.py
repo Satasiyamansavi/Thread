@@ -11,7 +11,7 @@ def player(name):
     print(f"{name} scored {score}")
     print(f"Sending winning amount to {name}")
 Thread=[]
-player_name=['Raj','Rohan','Priya']
+player_name=['Raj','Rohan','Priya','John']
 for name in player_name:
     thread=threading.Thread(target=player,args=(name,))
     Thread.append(thread)
